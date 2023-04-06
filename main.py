@@ -1,6 +1,6 @@
 import pickle
 from utils import *
-from impute_methods import *
+from model import *
 from data_loader import *
 
 def main(type_impute, data_name, miss_rate, non_missing_columns, pca_pjt):

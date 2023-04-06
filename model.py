@@ -21,7 +21,7 @@ from sklearn.impute import IterativeImputer, KNNImputer
 from missingpy import MissForest
 from fancyimpute import SoftImpute
 from numpy.linalg import norm, inv
-from dimension_reduction import PCA
+from PCA import PCA
 
 def gain (data_x, gain_parameters):
     '''Impute missing values in data_x
